@@ -12,6 +12,7 @@ while True:
     file_name = now.strftime("%d_%m_%Y_%H_%M_%s.jpg")
     img.save(frame_directory + file_name)
     print('Capturing...')
+    print(time)
     time.sleep(10) 
 
 
